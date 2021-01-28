@@ -126,7 +126,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 18.705036640167236, 16.546763181686401, 704.911474108695984, 47.0 ],
-					"text" : "Programmer: Kevin Leong\nDate: 1/2021\nDescription: This is has both a Sine wave object that is changed by the number object and also prints a message to the console"
+					"text" : "Programmer: Kevin Leong\nDate: 1/28/2021\nDescription: This is has both a Sine wave object that is changed by the number object and also prints a message to the console"
 				}
 
 			}
