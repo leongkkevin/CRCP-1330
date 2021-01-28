@@ -40,6 +40,52 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-14",
+					"linecount" : 2,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 268.269239723682404, 120.621199667453766, 150.0, 33.0 ],
+					"text" : "text message (prints to console)"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-10",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 168.269236385822296, 188.03846150636673, 150.0, 20.0 ],
+					"text" : "print object"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-7",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 109.46153724193573, 127.03846150636673, 152.0, 22.0 ],
+					"text" : "\"Sound and Code is dope!\""
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-4",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 109.46153724193573, 187.03846150636673, 32.0, 22.0 ],
+					"text" : "print"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-13",
 					"linecount" : 2,
 					"maxclass" : "comment",
@@ -79,8 +125,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 18.705036640167236, 16.546763181686401, 206.834534406661987, 47.0 ],
-					"text" : "Programmer: Kevin Leong\nDate: 1/2021\nDescription: This is just the test code"
+					"patching_rect" : [ 18.705036640167236, 16.546763181686401, 704.911474108695984, 47.0 ],
+					"text" : "Programmer: Kevin Leong\nDate: 1/2021\nDescription: This is has both a Sine wave object that is changed by the number object and also prints a message to the console"
 				}
 
 			}
@@ -139,6 +185,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-2", 0 ],
 					"source" : [ "obj-3", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-4", 0 ],
+					"source" : [ "obj-7", 0 ]
 				}
 
 			}
