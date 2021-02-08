@@ -40,13 +40,47 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
-					"id" : "obj-187",
-					"linecount" : 2,
+					"id" : "obj-191",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2458.0, 27.666666865348816, 150.0, 47.0 ],
-					"text" : "Kevin Leong\n47970316\n"
+					"patching_rect" : [ 2015.916679382324219, 1554.0, 150.0, 20.0 ],
+					"text" : "ezdac for ethereal C chord"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-189",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1845.666679382324219, 1649.000011324882507, 123.0, 20.0 ],
+					"text" : "ezdac for the melody"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-184",
+					"linecount" : 3,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 671.333347201347351, 27.666666865348816, 150.0, 47.0 ],
+					"text" : "This section is the melody of Twinkle Twinkle Little Star"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-187",
+					"linecount" : 7,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 2318.0, -1.333333134651184, 283.0, 114.0 ],
+					"text" : "Composer: Kevin Leong\nDate: 2/8/2021\nDescription: This sound has the emotion (at least for me) of remembering childhood memories. It is the melody of Twinkle Twinkle Little Star with a constant hum behind it.\n\n"
 				}
 
 			}
@@ -57,8 +91,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2488.0, 161.0, 150.0, 127.0 ],
-					"text" : "This is a C, G and E note. These oscillate in volume in order to make a constnat ethereal sound. It also creates a C major chord at the end.\n\nEach comes in at half intervals"
+					"patching_rect" : [ 2470.0, 171.0, 153.0, 127.0 ],
+					"text" : "This is a C, G and E note. These oscillate in volume in order to make a constant ethereal-like sound. It also creates a C major chord at the end.\n\nEach comes in at half intervals"
 				}
 
 			}
@@ -408,11 +442,12 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-154",
+					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 337.0, 54.666666865348816, 150.0, 20.0 ],
-					"text" : "INITIALIZE SEQUENCE"
+					"patching_rect" : [ 337.0, 48.166666865348816, 150.0, 33.0 ],
+					"text" : "INITIALIZE SEQUENCE WITH THIS BANG"
 				}
 
 			}
@@ -423,7 +458,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 232.000002384185791, 3.666665196418762, 150.0, 33.0 ],
+					"patching_rect" : [ 244.0, 7.666665196418762, 150.0, 33.0 ],
 					"text" : "in order, it goes \nC4, G4, A4, F4, E4, D4"
 				}
 
@@ -435,7 +470,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 80.000002384185791, 3.666665196418762, 150.0, 47.0 ],
+					"patching_rect" : [ 92.0, 7.666665196418762, 150.0, 47.0 ],
 					"text" : "The loadbang loads these specific key frequencies for each note"
 				}
 
@@ -447,7 +482,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 204.416670083999634, 52.666665196418762, 29.5, 22.0 ],
+					"patching_rect" : [ 204.416670083999634, 69.666665196418762, 29.5, 22.0 ],
 					"text" : "288"
 				}
 
@@ -459,7 +494,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 164.083335995674133, 52.666665196418762, 29.5, 22.0 ],
+					"patching_rect" : [ 164.083335995674133, 69.666665196418762, 29.5, 22.0 ],
 					"text" : "330"
 				}
 
@@ -471,7 +506,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 126.5833340883255, 52.666665196418762, 29.5, 22.0 ],
+					"patching_rect" : [ 126.5833340883255, 69.666665196418762, 29.5, 22.0 ],
 					"text" : "350"
 				}
 
@@ -483,7 +518,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 84.3333340883255, 52.666665196418762, 29.5, 22.0 ],
+					"patching_rect" : [ 84.3333340883255, 69.666665196418762, 29.5, 22.0 ],
 					"text" : "440"
 				}
 
@@ -495,7 +530,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 43.25, 52.666665196418762, 29.5, 22.0 ],
+					"patching_rect" : [ 43.25, 69.666665196418762, 29.5, 22.0 ],
 					"text" : "392"
 				}
 
@@ -507,7 +542,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 4.083333015441895, 52.666665196418762, 29.5, 22.0 ],
+					"patching_rect" : [ 4.083333015441895, 69.666665196418762, 29.5, 22.0 ],
 					"text" : "262"
 				}
 
